@@ -1,0 +1,6 @@
+framework module CLCommonUIKit {
+  umbrella header "CLCommonUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

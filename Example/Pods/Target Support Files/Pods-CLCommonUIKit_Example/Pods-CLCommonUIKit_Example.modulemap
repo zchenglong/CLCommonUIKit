@@ -1,0 +1,6 @@
+framework module Pods_CLCommonUIKit_Example {
+  umbrella header "Pods-CLCommonUIKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

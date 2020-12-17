@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CLCommonUIKit_Example' do
+  pod 'CLCommonUIKit', :path => '../'
+
+  target 'CLCommonUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
