@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "CLCommonUIKit.h"
+#import "CLCBaseButton.h"
+#import "CLCBaseTableViewCell.h"
+#import "CLCBaseView.h"
+#import "CLCBaseViewProtocol.h"
 
 FOUNDATION_EXPORT double CLCommonUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char CLCommonUIKitVersionString[];

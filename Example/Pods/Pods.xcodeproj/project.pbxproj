@@ -7,35 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		192A29411E43E275ED417923E833A879 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 93902781BD7ED35D43BA7B2EABB208AC /* ReplaceMe.m */; };
+		1047295CC0A69A5742AA6BC2BB307E1A /* CLCBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D20149049872B19493FA2498DC3F0D /* CLCBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D6A98189C196BEBAE3BC4203B767F65 /* Pods-CLCommonUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC0C4EE037B690A9B1BBF73A551680D /* Pods-CLCommonUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75DC4C6D258AF72500DA9396 /* CLCBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DC4C6B258AF72500DA9396 /* CLCBaseView.h */; };
-		75DC4C6E258AF72500DA9396 /* CLCBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DC4C6C258AF72500DA9396 /* CLCBaseView.m */; };
-		75DC4C7B258AF75300DA9396 /* CLCBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DC4C79258AF75300DA9396 /* CLCBaseTableViewCell.h */; };
-		75DC4C7C258AF75300DA9396 /* CLCBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DC4C7A258AF75300DA9396 /* CLCBaseTableViewCell.m */; };
-		75DC4C85258AF77000DA9396 /* CLCBaseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DC4C83258AF77000DA9396 /* CLCBaseButton.h */; };
-		75DC4C86258AF77000DA9396 /* CLCBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DC4C84258AF77000DA9396 /* CLCBaseButton.m */; };
-		75DC4C8B258AF78600DA9396 /* CLCBaseViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DC4C8A258AF78600DA9396 /* CLCBaseViewProtocol.h */; };
-		75DC4C90258AF7B600DA9396 /* CLCommonUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DC4C8F258AF7B600DA9396 /* CLCommonUIKit.h */; };
+		64D5221A2C15314CCB0CB5CD382F0816 /* CLCBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 247D887B199E600CACFFF1C9A92D46CF /* CLCBaseView.m */; };
+		67CE9950259929EC1E09CF9A88BDABA9 /* CLCBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EB67AA47731D80C5BDD725948EBFB3 /* CLCBaseTableViewCell.m */; };
+		74B5324F49F00BD9C367D2CE03D9051B /* CLCBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F0D11BD3A4F9623E91FEF800676576 /* CLCBaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99B126B0B99CE03CCEADDFAE8CD3136E /* Pods-CLCommonUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77203070C31058B88BBB7EB6C8F77F78 /* Pods-CLCommonUIKit_Example-dummy.m */; };
-		A13058FB15269FF14427489825506163 /* CLCommonUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5E4D3C90AAD4F135FFED90E65ABC2 /* CLCommonUIKit-dummy.m */; };
-		C57DD12472A918EA7F32B1CD741A7C7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A633CDDDD63B7D6165EB52F8CEECB70D /* CLCBaseViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C041BE8997FEC9629091004B4AF8FB /* CLCBaseViewProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B307F21D18171FCD919462460B446B5A /* CLCBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FAB98F3C8DDB0A496CC9064D04500D /* CLCBaseButton.m */; };
+		C104BC674B455D335CBB1FEB4F0D74FE /* CLCBaseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 993CC99DC3FB816696F61C88B20F6BC9 /* CLCBaseButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C91888A835DFC65872F6B22BC84BF3BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D3EB1500279E7A5140765B1955677CDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D55E90C3C9F86D5CFB562773F7EE563D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DB034D2AE927515972FA8F87E6F81E26 /* CLCommonUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8ED50E9B117FC13B547B768C350DFE /* CLCommonUIKit-dummy.m */; };
 		DF7D38A2C3099AD2059F24D6D49B0B91 /* Pods-CLCommonUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E281DDEBBD97E6A706C57D1202F44DA /* Pods-CLCommonUIKit_Tests-dummy.m */; };
+		E12696ADD038F402BBC4C395C56F872B /* CLCommonUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E52548B6B182F52AEEE43828836BF4 /* CLCommonUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1C30A007F7AC05B245A313E48BD4137 /* Pods-CLCommonUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0276F5CB278E7BE8D6BBE51A1674F5 /* Pods-CLCommonUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECA758B568A1ED8AD7EFDE95D098516A /* CLCommonUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F078D6A1D6FA1631D27D22CF56FB697E /* CLCommonUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDE724FC608B0CAF4F4C4BAB083B1A8E /* CLCommonUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D433F0DC3AD719471E486299A38ED74 /* CLCommonUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2F8B8451151F6440DF1FC75C44B2210A /* PBXContainerItemProxy */ = {
+		308F6823C4B120C84036F43FEE51CAB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3F9054804AF648517765B65FC8F4F121;
 			remoteInfo = CLCommonUIKit;
 		};
-		D8CC902DF5DEA9336AD949EAA0C658FD /* PBXContainerItemProxy */ = {
+		7147EDD77D777947AB9342E33A1BE962 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -46,45 +45,44 @@
 
 /* Begin PBXFileReference section */
 		0749878B1F18DE0674AC336B08A7F2A7 /* Pods-CLCommonUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCommonUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		16A9D953FE54D33C863406BAE516322D /* CLCommonUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CLCommonUIKit-Info.plist"; sourceTree = "<group>"; };
-		1A2FEBBBBA2A26501336258E5A940CB9 /* CLCommonUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLCommonUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C041BE8997FEC9629091004B4AF8FB /* CLCBaseViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLCBaseViewProtocol.h; sourceTree = "<group>"; };
+		19F0D11BD3A4F9623E91FEF800676576 /* CLCBaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLCBaseTableViewCell.h; sourceTree = "<group>"; };
+		1A2FEBBBBA2A26501336258E5A940CB9 /* CLCommonUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CLCommonUIKit.framework; path = CLCommonUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		247D887B199E600CACFFF1C9A92D46CF /* CLCBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLCBaseView.m; sourceTree = "<group>"; };
+		2729A61017FE9D4B619485CA218C6C33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32CF9C205CF5FDADCADC87492398CD16 /* Pods-CLCommonUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCommonUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		51DAEBB07811090B69A99EE94499F9CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3D433F0DC3AD719471E486299A38ED74 /* CLCommonUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLCommonUIKit.h; path = CLCommonUIKit/Classes/CLCommonUIKit.h; sourceTree = "<group>"; };
+		4D3A54BD0DF9E4B74FC844C43055FAF9 /* CLCommonUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CLCommonUIKit-Info.plist"; sourceTree = "<group>"; };
+		55E52548B6B182F52AEEE43828836BF4 /* CLCommonUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLCommonUIKit-umbrella.h"; sourceTree = "<group>"; };
+		59D20149049872B19493FA2498DC3F0D /* CLCBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLCBaseView.h; sourceTree = "<group>"; };
+		59EB67AA47731D80C5BDD725948EBFB3 /* CLCBaseTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLCBaseTableViewCell.m; sourceTree = "<group>"; };
 		5C0276F5CB278E7BE8D6BBE51A1674F5 /* Pods-CLCommonUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLCommonUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		6D7DD23D96ECDB08A4AE7DCECF316A07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		75DC4C6B258AF72500DA9396 /* CLCBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCBaseView.h; sourceTree = "<group>"; };
-		75DC4C6C258AF72500DA9396 /* CLCBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCBaseView.m; sourceTree = "<group>"; };
-		75DC4C79258AF75300DA9396 /* CLCBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCBaseTableViewCell.h; sourceTree = "<group>"; };
-		75DC4C7A258AF75300DA9396 /* CLCBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCBaseTableViewCell.m; sourceTree = "<group>"; };
-		75DC4C83258AF77000DA9396 /* CLCBaseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCBaseButton.h; sourceTree = "<group>"; };
-		75DC4C84258AF77000DA9396 /* CLCBaseButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCBaseButton.m; sourceTree = "<group>"; };
-		75DC4C8A258AF78600DA9396 /* CLCBaseViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCBaseViewProtocol.h; sourceTree = "<group>"; };
-		75DC4C8F258AF7B600DA9396 /* CLCommonUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCommonUIKit.h; sourceTree = "<group>"; };
+		5C2F7564C3F0CFFAEB87213E790F6160 /* CLCommonUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLCommonUIKit.modulemap; sourceTree = "<group>"; };
 		77203070C31058B88BBB7EB6C8F77F78 /* Pods-CLCommonUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLCommonUIKit_Example-dummy.m"; sourceTree = "<group>"; };
-		784379EB6D0B6264FE9ACF11485AF9D9 /* Pods_CLCommonUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLCommonUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		784379EB6D0B6264FE9ACF11485AF9D9 /* Pods_CLCommonUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CLCommonUIKit_Tests.framework; path = "Pods-CLCommonUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797D0901B0BADF55DD36B2EEF0D76686 /* CLCommonUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLCommonUIKit.debug.xcconfig; sourceTree = "<group>"; };
 		7E281DDEBBD97E6A706C57D1202F44DA /* Pods-CLCommonUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLCommonUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		83514EAF980DED25FE4D850BA8193C4D /* CLCommonUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLCommonUIKit-prefix.pch"; sourceTree = "<group>"; };
 		89E24CC8E7B32A6ED9DDB06CA79D4B4C /* Pods-CLCommonUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CLCommonUIKit_Example.modulemap"; sourceTree = "<group>"; };
-		8B53D4999B16FF9716BE3A247A12C244 /* Pods_CLCommonUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLCommonUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93902781BD7ED35D43BA7B2EABB208AC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CLCommonUIKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		93F0126DD8B873ECFAC77B2E5B01CE98 /* CLCommonUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLCommonUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		8B53D4999B16FF9716BE3A247A12C244 /* Pods_CLCommonUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CLCommonUIKit_Example.framework; path = "Pods-CLCommonUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		993CC99DC3FB816696F61C88B20F6BC9 /* CLCBaseButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLCBaseButton.h; sourceTree = "<group>"; };
 		9D1C331A643AFEF20026FFEEFE4E8BBD /* Pods-CLCommonUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLCommonUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4B5E4D3C90AAD4F135FFED90E65ABC2 /* CLCommonUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLCommonUIKit-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5BEB2B89F65ABA9707F363060E00828 /* Pods-CLCommonUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLCommonUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2A53809A0F6C4851003EDEF2DD1047C /* CLCommonUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLCommonUIKit.release.xcconfig; sourceTree = "<group>"; };
 		B88EB1827EBE0F75E29A9EE042D21B02 /* Pods-CLCommonUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CLCommonUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		BA8ED50E9B117FC13B547B768C350DFE /* CLCommonUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLCommonUIKit-dummy.m"; sourceTree = "<group>"; };
 		BFC0C4EE037B690A9B1BBF73A551680D /* Pods-CLCommonUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLCommonUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C90E22DE0425771B10646612B55BDC2A /* CLCommonUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CLCommonUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C65E133717026E639FBF92620FE035DF /* CLCommonUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLCommonUIKit-prefix.pch"; sourceTree = "<group>"; };
+		CB11CB573AB85F60CA9FCED1280D162F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CBC9FA5A6DB0B56575B630C5BBBF3CFA /* Pods-CLCommonUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLCommonUIKit_Example-Info.plist"; sourceTree = "<group>"; };
 		D29CFCE79E8F46F28E312F0F9318C90A /* Pods-CLCommonUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLCommonUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		DE6766A2BD9DA219079C693A95A5AE9D /* Pods-CLCommonUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLCommonUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E9D3DCE9A5469D695180CA707D39A5DC /* CLCommonUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLCommonUIKit.modulemap; sourceTree = "<group>"; };
-		F078D6A1D6FA1631D27D22CF56FB697E /* CLCommonUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLCommonUIKit-umbrella.h"; sourceTree = "<group>"; };
+		F0FAB98F3C8DDB0A496CC9064D04500D /* CLCBaseButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLCBaseButton.m; sourceTree = "<group>"; };
+		F2CF3F938D7760A42E1E16305EDC5146 /* CLCommonUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CLCommonUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F4C24C4FCF3F55EA4330B6FCE0AF9D99 /* Pods-CLCommonUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCommonUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F5E92240EB0568821FC02B420EE43AD5 /* Pods-CLCommonUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCommonUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F8C43FD80FACC05048ABC12F0905E5FA /* Pods-CLCommonUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLCommonUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FB7603ADC06E917E99A4AB04497E6817 /* CLCommonUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLCommonUIKit.release.xcconfig; sourceTree = "<group>"; };
 		FFE5186D88E1DE28FE256F9B6C6B6F3A /* Pods-CLCommonUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLCommonUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +95,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3D30A6D83A5F73C1853807683E9EA80B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91888A835DFC65872F6B22BC84BF3BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		487E831C774C900F701834E9D8A157FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,17 +111,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB94BCB962D7BB76427BE0A3C3E9EC67 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C57DD12472A918EA7F32B1CD741A7C7B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C5F1976D5DF5CDCA0C03938A61D7A03 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F2CF3F938D7760A42E1E16305EDC5146 /* CLCommonUIKit.podspec */,
+				2729A61017FE9D4B619485CA218C6C33 /* LICENSE */,
+				CB11CB573AB85F60CA9FCED1280D162F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		3C78EDA8D0CC2FF9B5A3DD16BAB8DC44 /* Pods-CLCommonUIKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +157,21 @@
 			path = "Target Support Files/Pods-CLCommonUIKit_Example";
 			sourceTree = "<group>";
 		};
+		4653884660C0BD0B5924247179F7D7F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C2F7564C3F0CFFAEB87213E790F6160 /* CLCommonUIKit.modulemap */,
+				BA8ED50E9B117FC13B547B768C350DFE /* CLCommonUIKit-dummy.m */,
+				4D3A54BD0DF9E4B74FC844C43055FAF9 /* CLCommonUIKit-Info.plist */,
+				C65E133717026E639FBF92620FE035DF /* CLCommonUIKit-prefix.pch */,
+				55E52548B6B182F52AEEE43828836BF4 /* CLCommonUIKit-umbrella.h */,
+				797D0901B0BADF55DD36B2EEF0D76686 /* CLCommonUIKit.debug.xcconfig */,
+				B2A53809A0F6C4851003EDEF2DD1047C /* CLCommonUIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CLCommonUIKit";
+			sourceTree = "<group>";
+		};
 		53EB2A3A4ADC1338C0016F3AC9D44147 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,51 +181,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6CD9F098F660D88DFDEEADE6EC53263F /* Support Files */ = {
+		5617E43BD4062BDA45FE7718A8C6380F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E9D3DCE9A5469D695180CA707D39A5DC /* CLCommonUIKit.modulemap */,
-				A4B5E4D3C90AAD4F135FFED90E65ABC2 /* CLCommonUIKit-dummy.m */,
-				16A9D953FE54D33C863406BAE516322D /* CLCommonUIKit-Info.plist */,
-				83514EAF980DED25FE4D850BA8193C4D /* CLCommonUIKit-prefix.pch */,
-				F078D6A1D6FA1631D27D22CF56FB697E /* CLCommonUIKit-umbrella.h */,
-				93F0126DD8B873ECFAC77B2E5B01CE98 /* CLCommonUIKit.debug.xcconfig */,
-				FB7603ADC06E917E99A4AB04497E6817 /* CLCommonUIKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CLCommonUIKit";
-			sourceTree = "<group>";
-		};
-		75DC4C68258AF6BA00DA9396 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				75DC4C6B258AF72500DA9396 /* CLCBaseView.h */,
-				75DC4C6C258AF72500DA9396 /* CLCBaseView.m */,
-				75DC4C79258AF75300DA9396 /* CLCBaseTableViewCell.h */,
-				75DC4C7A258AF75300DA9396 /* CLCBaseTableViewCell.m */,
-				75DC4C83258AF77000DA9396 /* CLCBaseButton.h */,
-				75DC4C84258AF77000DA9396 /* CLCBaseButton.m */,
-				75DC4C8A258AF78600DA9396 /* CLCBaseViewProtocol.h */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		9E77E25F644A6456D8BA58A4925F7C8D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BF5639C5E16B6ADE53D28BA8DAD46383 /* CLCommonUIKit */,
+				65DDC55B5FB37354EDF21AC6269E197A /* CLCommonUIKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		AC8973EC53F32C7E1E430B52EBA26E86 /* Pod */ = {
+		65DDC55B5FB37354EDF21AC6269E197A /* CLCommonUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				C90E22DE0425771B10646612B55BDC2A /* CLCommonUIKit.podspec */,
-				51DAEBB07811090B69A99EE94499F9CD /* LICENSE */,
-				6D7DD23D96ECDB08A4AE7DCECF316A07 /* README.md */,
+				3D433F0DC3AD719471E486299A38ED74 /* CLCommonUIKit.h */,
+				1C5F1976D5DF5CDCA0C03938A61D7A03 /* Pod */,
+				4653884660C0BD0B5924247179F7D7F7 /* Support Files */,
+				ACF8B419944BE4A57DEABA1A313BBDC6 /* View */,
 			);
-			name = Pod;
+			name = CLCommonUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ACF8B419944BE4A57DEABA1A313BBDC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				993CC99DC3FB816696F61C88B20F6BC9 /* CLCBaseButton.h */,
+				F0FAB98F3C8DDB0A496CC9064D04500D /* CLCBaseButton.m */,
+				19F0D11BD3A4F9623E91FEF800676576 /* CLCBaseTableViewCell.h */,
+				59EB67AA47731D80C5BDD725948EBFB3 /* CLCBaseTableViewCell.m */,
+				59D20149049872B19493FA2498DC3F0D /* CLCBaseView.h */,
+				247D887B199E600CACFFF1C9A92D46CF /* CLCBaseView.m */,
+				17C041BE8997FEC9629091004B4AF8FB /* CLCBaseViewProtocol.h */,
+			);
+			name = View;
+			path = CLCommonUIKit/Classes/View;
 			sourceTree = "<group>";
 		};
 		B8AAD23576BAEDC1C414EC603D5B22F7 /* Products */ = {
@@ -213,19 +224,6 @@
 				784379EB6D0B6264FE9ACF11485AF9D9 /* Pods_CLCommonUIKit_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BF5639C5E16B6ADE53D28BA8DAD46383 /* CLCommonUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				75DC4C68258AF6BA00DA9396 /* View */,
-				93902781BD7ED35D43BA7B2EABB208AC /* ReplaceMe.m */,
-				AC8973EC53F32C7E1E430B52EBA26E86 /* Pod */,
-				6CD9F098F660D88DFDEEADE6EC53263F /* Support Files */,
-				75DC4C8F258AF7B600DA9396 /* CLCommonUIKit.h */,
-			);
-			name = CLCommonUIKit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -240,7 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9E77E25F644A6456D8BA58A4925F7C8D /* Development Pods */,
+				5617E43BD4062BDA45FE7718A8C6380F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				B8AAD23576BAEDC1C414EC603D5B22F7 /* Products */,
 				53EB2A3A4ADC1338C0016F3AC9D44147 /* Targets Support Files */,
@@ -258,19 +256,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		128D1FB8B0DBDF378E96D52672C17602 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75DC4C7B258AF75300DA9396 /* CLCBaseTableViewCell.h in Headers */,
-				ECA758B568A1ED8AD7EFDE95D098516A /* CLCommonUIKit-umbrella.h in Headers */,
-				75DC4C8B258AF78600DA9396 /* CLCBaseViewProtocol.h in Headers */,
-				75DC4C90258AF7B600DA9396 /* CLCommonUIKit.h in Headers */,
-				75DC4C85258AF77000DA9396 /* CLCBaseButton.h in Headers */,
-				75DC4C6D258AF72500DA9396 /* CLCBaseView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7C112F45892F02E011A0DEFCF59D77BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,17 +272,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D256E0FCA9ED7F9D3BC97A89CAF9EBF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C104BC674B455D335CBB1FEB4F0D74FE /* CLCBaseButton.h in Headers */,
+				74B5324F49F00BD9C367D2CE03D9051B /* CLCBaseTableViewCell.h in Headers */,
+				1047295CC0A69A5742AA6BC2BB307E1A /* CLCBaseView.h in Headers */,
+				A633CDDDD63B7D6165EB52F8CEECB70D /* CLCBaseViewProtocol.h in Headers */,
+				E12696ADD038F402BBC4C395C56F872B /* CLCommonUIKit-umbrella.h in Headers */,
+				FDE724FC608B0CAF4F4C4BAB083B1A8E /* CLCommonUIKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3F9054804AF648517765B65FC8F4F121 /* CLCommonUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18C8A127E285B8CF2DE0A026F7B1EDAB /* Build configuration list for PBXNativeTarget "CLCommonUIKit" */;
+			buildConfigurationList = 1229583855B00DD5B4714FDD2FDB80F4 /* Build configuration list for PBXNativeTarget "CLCommonUIKit" */;
 			buildPhases = (
-				128D1FB8B0DBDF378E96D52672C17602 /* Headers */,
-				C17DCEE3B49472BA19950335069D10BA /* Sources */,
-				DB94BCB962D7BB76427BE0A3C3E9EC67 /* Frameworks */,
-				5D6D2617CE0E1E8B52B087B5DDBC49D7 /* Resources */,
+				D256E0FCA9ED7F9D3BC97A89CAF9EBF9 /* Headers */,
+				F2E75C8DD58D9B624121518DD09E1823 /* Sources */,
+				3D30A6D83A5F73C1853807683E9EA80B /* Frameworks */,
+				6700533AD408C519D53455674C6A626A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -320,7 +318,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7E22AA47A122FC723128C9E381D3D8D2 /* PBXTargetDependency */,
+				C01840E2CCA7338C1DB4D78E1401BF33 /* PBXTargetDependency */,
 			);
 			name = "Pods-CLCommonUIKit_Example";
 			productName = "Pods-CLCommonUIKit_Example";
@@ -339,7 +337,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				37D17193658EF00AC3511DCC5DF81A1F /* PBXTargetDependency */,
+				507AA1E5367C7C8831D5DB6502682C2F /* PBXTargetDependency */,
 			);
 			name = "Pods-CLCommonUIKit_Tests";
 			productName = "Pods-CLCommonUIKit_Tests";
@@ -376,14 +374,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5D6D2617CE0E1E8B52B087B5DDBC49D7 /* Resources */ = {
+		5E29F4C681ECCE93CF1ED66A14021323 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E29F4C681ECCE93CF1ED66A14021323 /* Resources */ = {
+		6700533AD408C519D53455674C6A626A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -408,18 +406,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C17DCEE3B49472BA19950335069D10BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A13058FB15269FF14427489825506163 /* CLCommonUIKit-dummy.m in Sources */,
-				75DC4C86258AF77000DA9396 /* CLCBaseButton.m in Sources */,
-				192A29411E43E275ED417923E833A879 /* ReplaceMe.m in Sources */,
-				75DC4C6E258AF72500DA9396 /* CLCBaseView.m in Sources */,
-				75DC4C7C258AF75300DA9396 /* CLCBaseTableViewCell.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EBF460AFCD488C4CDCD469E924064115 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,20 +414,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2E75C8DD58D9B624121518DD09E1823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B307F21D18171FCD919462460B446B5A /* CLCBaseButton.m in Sources */,
+				67CE9950259929EC1E09CF9A88BDABA9 /* CLCBaseTableViewCell.m in Sources */,
+				64D5221A2C15314CCB0CB5CD382F0816 /* CLCBaseView.m in Sources */,
+				DB034D2AE927515972FA8F87E6F81E26 /* CLCommonUIKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		37D17193658EF00AC3511DCC5DF81A1F /* PBXTargetDependency */ = {
+		507AA1E5367C7C8831D5DB6502682C2F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CLCommonUIKit_Example";
 			target = 90FE17899AEAA56CEB3464C51B1162DB /* Pods-CLCommonUIKit_Example */;
-			targetProxy = D8CC902DF5DEA9336AD949EAA0C658FD /* PBXContainerItemProxy */;
+			targetProxy = 7147EDD77D777947AB9342E33A1BE962 /* PBXContainerItemProxy */;
 		};
-		7E22AA47A122FC723128C9E381D3D8D2 /* PBXTargetDependency */ = {
+		C01840E2CCA7338C1DB4D78E1401BF33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CLCommonUIKit;
 			target = 3F9054804AF648517765B65FC8F4F121 /* CLCommonUIKit */;
-			targetProxy = 2F8B8451151F6440DF1FC75C44B2210A /* PBXContainerItemProxy */;
+			targetProxy = 308F6823C4B120C84036F43FEE51CAB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -511,6 +508,37 @@
 			};
 			name = Debug;
 		};
+		52324010028F5AE324BF9CD724ABCDFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797D0901B0BADF55DD36B2EEF0D76686 /* CLCommonUIKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CLCommonUIKit/CLCommonUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLCommonUIKit/CLCommonUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CLCommonUIKit/CLCommonUIKit.modulemap";
+				PRODUCT_MODULE_NAME = CLCommonUIKit;
+				PRODUCT_NAME = CLCommonUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5EA9AF47E1EE5179C7C17B7868D5686E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F4C24C4FCF3F55EA4330B6FCE0AF9D99 /* Pods-CLCommonUIKit_Tests.debug.xcconfig */;
@@ -543,38 +571,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		6D4299A8EE0E7BED49DBD6F37E87C097 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB7603ADC06E917E99A4AB04497E6817 /* CLCommonUIKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CLCommonUIKit/CLCommonUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CLCommonUIKit/CLCommonUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CLCommonUIKit/CLCommonUIKit.modulemap";
-				PRODUCT_MODULE_NAME = CLCommonUIKit;
-				PRODUCT_NAME = CLCommonUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8A720BF53D07C1930A6E675C461104EA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -697,15 +693,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		ED1AC4BAE39AFFEAFD201E79ED00848D /* Debug */ = {
+		B66F346DFB704CE98330F71F0A138B94 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93F0126DD8B873ECFAC77B2E5B01CE98 /* CLCommonUIKit.debug.xcconfig */;
+			baseConfigurationReference = B2A53809A0F6C4851003EDEF2DD1047C /* CLCommonUIKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -729,10 +726,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		F269839AC603FD72CC86167129B58A60 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -771,11 +769,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18C8A127E285B8CF2DE0A026F7B1EDAB /* Build configuration list for PBXNativeTarget "CLCommonUIKit" */ = {
+		1229583855B00DD5B4714FDD2FDB80F4 /* Build configuration list for PBXNativeTarget "CLCommonUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED1AC4BAE39AFFEAFD201E79ED00848D /* Debug */,
-				6D4299A8EE0E7BED49DBD6F37E87C097 /* Release */,
+				52324010028F5AE324BF9CD724ABCDFF /* Debug */,
+				B66F346DFB704CE98330F71F0A138B94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
